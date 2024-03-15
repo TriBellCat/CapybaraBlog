@@ -1,35 +1,23 @@
-/*Image Elements*/
-h1, h2, h3, p, img {
-  margin-right: 150px;
-  margin-left: 80px;
+/*UI*/
+body {
+  background-color: #D3D3D3;;
 }
 
-.floatright {
-  float: right;
+.header {
+  width: 88%;
+  padding: 20px 6%;
+  letter-spacing: 1.5px;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px rgba(0,0,0,0.1);
+  z-index: 999;
+  top: 0;
 }
 
-.rounded--portrait {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.smaller--image {
-  width: 400px;
-  height: 400px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-/*text and fonts*/
+/*Text*/
 h1 {
   font-family: "GTClassicBlack",sans-serif;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 h2,h3 {
@@ -42,5 +30,30 @@ p {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 30px;
 }
+
+/*Image*/
+h2, h3, p, img {
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.rounded--portrait {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.floatright {
+  float: right;
+}
+
+
 
 
